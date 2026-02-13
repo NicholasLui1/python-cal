@@ -14,3 +14,6 @@ def div(a, b):
 
 def sin(x):
     return math.sin(x)
+
+def cos(a):
+    return math.cos(a)
