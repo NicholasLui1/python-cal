@@ -1,3 +1,5 @@
+import math
+
 def add(a, b):
     return a + b
 
@@ -11,3 +13,12 @@ def div(a, b):
     if b == 0:
         return float('inf')
     return a / b
+
+def sin(x):
+    return math.sin(x)
+
+def cos(a):
+    return math.cos(a)
+
+def tan(x):
+    return math.tan(x)
